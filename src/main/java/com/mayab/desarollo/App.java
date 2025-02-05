@@ -1,13 +1,13 @@
 package com.mayab.desarollo;
 
-/**
- * Hello world!
- *
- */
+import com.anahuac.software.creacional.singleton.Logger;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Logger logger = Logger.getInstance();
+
+        System.out.println("logger = " + logger);
     }
 }
