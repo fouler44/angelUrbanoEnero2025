@@ -1,4 +1,4 @@
-package com.anahuac.software.creacional.factoryMethod;
+package com.anahuac.software.creacional.factorymethod;
 
 public class PickupCarHigh extends PickupCar{
 

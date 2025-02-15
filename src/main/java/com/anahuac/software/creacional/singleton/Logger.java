@@ -2,17 +2,19 @@ package com.anahuac.software.creacional.singleton;
 
 public class Logger {
 
-    private static Logger logger;
+    private static Logger instance;
 
-    private Logger() {
-        System.out.println("Creating logger");
-    }
+    private Logger() {  }
 
     public static Logger getInstance() {
-        if (logger == null) {
-            logger = new Logger();
+        if (instance == null) {
+            instance = new Logger();
         }
-        return logger;
+        return instance;
+    }
+
+    public void log(String severity, String message){
+        System.out.println(severity + ": " + message);
     }
 
 }

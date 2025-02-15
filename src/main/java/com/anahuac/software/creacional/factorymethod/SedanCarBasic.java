@@ -1,7 +1,6 @@
-package com.anahuac.software.creacional.factoryMethod;
+package com.anahuac.software.creacional.factorymethod;
 
-public class PickupCarBasic extends PickupCar{
-
+public class SedanCarBasic extends SedanCar{
     @Override
     public void addDoors() {
         System.out.println("Agregar 2 puertas");

@@ -1,6 +1,6 @@
-package com.anahuac.software.creacional.factoryMethod;
+package com.anahuac.software.creacional.factorymethod;
 
-public class ElectricCarBasic extends ElectricCar{
+public class PickupCarBasic extends PickupCar{
 
     @Override
     public void addDoors() {
